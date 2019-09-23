@@ -28,3 +28,5 @@ The course will cover the following:
 8) JSON
 9) HTTP & APIs
 10) Build API with FLASK
+
+## Git, GitHub and documentation. 
