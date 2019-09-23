@@ -3,7 +3,7 @@
 # EXERCISE 1 homework
 # Use variables, print and different data types.
 # Ask and store the following information in variables:
-    # first_name, last_name, age, age of mother, three skill
+    # first_name, last_name, age, age of mother as variables and three skills in a list
 
     # Print out the information in a formatted manner
     # Calculate age difference between repsonse and mother
