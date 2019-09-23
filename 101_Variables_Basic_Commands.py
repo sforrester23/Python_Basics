@@ -33,3 +33,8 @@ print(type(14.0))
 variable_num = '14'
 print(type(variable_num*10)) #This will be a string, because you are multiplying a string 10 times.
 
+# Input
+# .input() - prompts input from user
+print('What is your favourite colour? ')
+user_response = input('No, really, what is your favourite colour? ')
+print(user_response)
