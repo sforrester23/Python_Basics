@@ -26,6 +26,8 @@ print(f"hey there, {name}, how you doin'? XD XD XP LOL RAWR")
 # then you can use {} to interpolate python variables inside
 
 
+
+
 # Useful methods for strings
 my_string = '  Hello this is an amazing string!   '
 print(my_string.count('i')) #counts number of letter i's (4)
