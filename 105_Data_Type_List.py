@@ -41,6 +41,12 @@ crazy_ex_partners.pop(2) #removes the number two entry in the list (change the n
     # Lists can have many data types
 hybrid_list=['This is a string', 12, 66, 'hello', [1,2,3]] # list of lists are viable too!
 
-
+# Tuples --> Immutable lists
+# They do not change syntax
+# my_tuple = ()
+my_tuple = (2, 'hello', 22, 'hello there')
+print(my_tuple)
+print(type(my_tuple))
+my_tuple[0]=30 # This will not change the value because tuples do not support this. They are Immutable!
 
 
