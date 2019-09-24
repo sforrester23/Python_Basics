@@ -16,3 +16,4 @@ elif rating == 'universal':
     print('Anyone can watch this film!')
 else:
     print('I cannot tell what the rating of this function is...')
+6
