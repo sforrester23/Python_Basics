@@ -30,3 +30,28 @@ The course will cover the following:
 10) Build API with FLASK
 
 ## Git, GitHub and documentation. 
+
+### String
+- Define using ' ' & " "
+- They are a list of characters
+
+## Int, Floats
+- Numbers and decimals
+- You can perform arithmetic and comparison operations on them.
+ 
+## List
+- Defined with [ ]
+- Add at the end of the list using .append
+- Add in a certain index position using .insert(position_index, string_to_add)
+
+## Dictionary
+- Defined using { }
+- You can add using 
+
+        my_dictionary {'key' : item(string/integer etc)}
+        
+- You can access it using its key 
+        
+        my_dictionary['key'] --> <item for that key> 
+
+## How to add a list or dictionary
