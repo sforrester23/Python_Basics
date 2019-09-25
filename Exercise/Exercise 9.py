@@ -10,7 +10,7 @@
     # WELLL DONE! YOU can now talk to me
     # Exits
 
-response = ' '
+
 while True:
     response = input('What do you have to say to me, insolent pupil? ').lower().capitalize()
     if '?' in response:

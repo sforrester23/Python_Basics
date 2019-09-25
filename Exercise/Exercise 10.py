@@ -52,18 +52,31 @@ keep_going = input('Would you like to read some back? Type anything to continue.
 # While loop to run the whole time before we have told the programme to stop (by typing exit when prompted)
 while keep_going != 'EXIT':
     # Ask them which story they'd like to read again: 1, 2 or 3
-    story_to_read = int(input('Which story would you like to read back? Please enter either 1, 2 or 3: '))
-    if story_to_read == 1: # Read story number 1 with correct formatting
+    story_to_read = input('Which story would you like to read back? Please enter either 1, 2, 3 or \'all\': ').upper()
+    if story_to_read == '1': # Read story number 1 with correct formatting
         print('This is story number 1')
         print('{}. {}. {}.'.format(book['story_1']['beginning'], book['story_1']['middle'], book['story_1']['end']))
         print('The hero of the story was {}, while the Villain was {}.'.format(book['story_1']['hero'], book['story_1']['villain']))
         print('The moral of the story is: {}. And don\'t you forget it...'.format(book['story_1']['moral']))
-    elif story_to_read == 2: # Read story number 2 with correct formatting
+    elif story_to_read == '2': # Read story number 2 with correct formatting
         print('This is story number 2')
         print('{}. {}. {}.'.format(book['story_2']['beginning'], book['story_2']['middle'], book['story_2']['end']))
         print('The hero of the story was {}, while the Villain was {}.'.format(book['story_2']['hero'], book['story_2']['villain']))
         print('The moral of the story is: {}. And don\'t you forget it...'.format(book['story_2']['moral']))
-    elif story_to_read == 3: # Read story number 3 with correct formatting
+    elif story_to_read == '3': # Read story number 3 with correct formatting
+        print('This is story number 3')
+        print('{}. {}. {}.'.format(book['story_3']['beginning'], book['story_3']['middle'], book['story_3']['end']))
+        print('The hero of the story was {}, while the Villain was {}.'.format(book['story_3']['hero'], book['story_3']['villain']))
+        print('The moral of the story is: {}. And don\'t you forget it...'.format(book['story_3']['moral']))
+    elif story_to_read == 'ALL':
+        print('This is story number 1')
+        print('{}. {}. {}.'.format(book['story_1']['beginning'], book['story_1']['middle'], book['story_1']['end']))
+        print('The hero of the story was {}, while the Villain was {}.'.format(book['story_1']['hero'], book['story_1']['villain']))
+        print('The moral of the story is: {}. And don\'t you forget it...'.format(book['story_1']['moral']))
+        print('This is story number 2')
+        print('{}. {}. {}.'.format(book['story_2']['beginning'], book['story_2']['middle'], book['story_2']['end']))
+        print('The hero of the story was {}, while the Villain was {}.'.format(book['story_2']['hero'], book['story_2']['villain']))
+        print('The moral of the story is: {}. And don\'t you forget it...'.format(book['story_2']['moral']))
         print('This is story number 3')
         print('{}. {}. {}.'.format(book['story_3']['beginning'], book['story_3']['middle'], book['story_3']['end']))
         print('The hero of the story was {}, while the Villain was {}.'.format(book['story_3']['hero'], book['story_3']['villain']))
