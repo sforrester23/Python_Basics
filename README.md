@@ -105,13 +105,15 @@ The course will cover the following:
 - Keeps looping and iterating the whole time a condition is being met, and will only stop when that condition is met, or it comes to a BREAK statement.
 
 - Syntax:
-    
-        while <condition>:
-            <block to execute>
+        
+        1.    
+            while <condition>:
+                <block to execute>
     OR:
 
-        while <condition>:
-            <block to execute>
-            if <condition>:
-                break
-        
+        2.
+            while <condition>:
+                <block to execute>
+                if <condition>:
+                    break
+
